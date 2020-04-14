@@ -380,10 +380,10 @@
     ui-router-visualizer "^4.0.0"
     ui-select "^0.19.6"
 
-"@spinnaker/styleguide@^1.0.15":
-  version "1.0.15"
-  resolved "https://registry.yarnpkg.com/@spinnaker/styleguide/-/styleguide-1.0.15.tgz#01fcac81d7031f3085d10eb79b0c6b3cbfc90ef8"
-  integrity sha512-lCRyrzjVE8Ohz5MhdimUKTZHwr1P/15B1RR6/x++D3ribdH6oHau+uOGWuiB1B0QuKMb8HxMqxHZgGZ/6sqwCA==
+"@spinnaker/styleguide@^1.0.19":
+  version "1.0.19"
+  resolved "https://registry.yarnpkg.com/@spinnaker/styleguide/-/styleguide-1.0.19.tgz#afed43123170736ad9c56b5f789433a95f73edad"
+  integrity sha512-GGg/1mf7p4A9w6HNxBwxZUNkxu9fxp/bkoUz6lcxu6ipqxXPa9bfvin6QxE2BiYSJBM4Gxa2TKowCbmcLb3W5w==
 
 "@types/angular-mocks@1.5.10", "@types/angular-mocks@^1.5.9":
   version "1.5.10"
