@@ -1,0 +1,34 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "20:00"
+    timezone: America/Los_Angeles
+  open-pull-requests-limit: 10
+  allow:
+  - dependency-name: "@spinnaker/kayenta"
+  - dependency-name: "@spinnaker/styleguide"
+  ignore:
+  - dependency-name: "@spinnaker/kayenta"
+    versions:
+    - 0.0.108
+    - 0.0.109
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 1.0.4
+  - dependency-name: urijs
+    versions:
+    - 1.19.5
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
+  - dependency-name: elliptic
+    versions:
+    - 6.5.3
+  - dependency-name: handlebars
+    versions:
+    - 4.7.6
